@@ -1,0 +1,37 @@
+html, body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+}
+
+.square {
+	float: left;
+	width: 20%;
+	border-radius: 1%;
+	height: 20%;
+	text-align: center;
+}
+
+.square_click {
+	background-color: #039;
+	color: #FFF;
+}
+
+.square_free {
+	background-color: #f00;
+	color: #fff;
+}
+
+.inner_square {
+	height: 90%;
+	width: 90%;
+	border: .1em solid #000;
+	border-radius: 1em;
+	margin: 2%;
+	padding: 1%;
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: left;
+}
